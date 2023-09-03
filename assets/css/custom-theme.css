@@ -1,0 +1,113 @@
+.d-flex {
+	display: flex;
+}
+.justify-space-between {
+	justify-content: space-between;
+}
+.justify-content-center {
+	justify-content: center;
+}
+.has-error {
+	border-color: red !important;
+}
+.ui-pnotify .alert-warning {
+    background: rgba(237, 156, 40, 0.95);
+    color: rgba(255, 255, 255, 0.7);
+}
+.success-color {
+	color: #22c865;
+}
+.bg-lightblue {
+	background: #aadae9;
+}
+.w-25p {
+	width: 25% !important;
+}
+.w-45p {
+	width: 45% !important;
+}
+.w-50p {
+	width: 50% !important;
+}
+.w-75p {
+	width: 75% !important;
+}
+.w-100p {
+	width: 100% !important;
+}
+.w-150 {
+	width: 150px !important; 
+}
+.month-datatable-wraper {
+	display: inline-flex;
+	margin-top: 18px;
+}
+.month-datatable-wraper label {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.month-datatable-wraper input {
+	width: 185px;
+}
+.histroy-table-scroll-y {
+	overflow-y: scroll;
+	max-height: 500px;
+	padding: 10px;
+}
+.min-w-50p {
+	min-width: 50% !important;
+}
+.cursor {
+	cursor: pointer;
+}
+.datatable-top, .datatable-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.datatable-top {
+	margin-top: 20px;
+}
+.dataTables_wrapper .dataTables_processing {
+	position: absolute;
+	top: 50% !important;
+	left: 50%;
+}
+.p-15 {
+	padding: 15px !important;
+}
+/*.login-wrapper {
+    
+}*/
+
+#content-outer {
+    /*background: url(../images/shared/content_repeat.jpg) repeat-x;*/
+    background: #ffffff;
+}
+
+.login-wrapper {
+	background: url(../img/login.jpg) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: cover !important;
+}
+
+.datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:focus, .datepicker table tr td span.active:hover:focus, .datepicker table tr td span.active.disabled:focus, .datepicker table tr td span.active.disabled:hover:focus, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active, .open .dropdown-toggle.datepicker table tr td span.active, .open .dropdown-toggle.datepicker table tr td span.active:hover, .open .dropdown-toggle.datepicker table tr td span.active.disabled, .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
+    color: #ffffff;
+    background-color: #3276b1 !important;
+    border-color: #285e8e;
+}
+.nav-active {
+	color: #50A2C8 !important;
+}
+
+.dataTables_wrapper .dataTables_processing {
+	position: fixed !important;
+    top: 50% !important;
+	font-size: 50px;
+	color: #50a2c8 !important;
+	font-weight: thin !important;
+}
+/*.form-group-default.focused {
+	border: 1px solid red !important;
+}
+*/
